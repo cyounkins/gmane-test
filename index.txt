@@ -1,0 +1,28 @@
+
+[root@nixos:~/nixpkgs]# grep -ri 'gmane' *
+doc/submitting-changes.xml:      <link xlink:href="https://web.archive.org/web/20160528180406/http://comments.gmane.org/gmane.linux.distributions.nixos/13447">Read
+nixos/doc/manual/release-notes/rl-1412.xml:     <link xlink:href="http://thread.gmane.org/gmane.linux.distributions.nixos/15165">
+pkgs/development/r-modules/cran-packages.nix:  sigmaNet = derive2 { name="sigmaNet"; version="1.1.0"; sha256="1i0xikwad9kiyrqxi1klkc4h4hyqfkxr388sw4mrx9pswfpbv3xr"; depends=[htmlwidgets igraph jsonlite RColorBrewer]; };
+pkgs/development/libraries/adns/default.nix:  # http://thread.gmane.org/gmane.linux.distributions.nixos/1328 for details.
+pkgs/development/libraries/glibc/common.nix:      # http://comments.gmane.org/gmane.linux.lfs.support/31227
+pkgs/development/compilers/mit-scheme/default.nix:    # <http://article.gmane.org/gmane.lisp.scheme.mit-scheme.devel/489>.
+pkgs/development/compilers/gcc/gfortran-driving.patch:See <http://thread.gmane.org/gmane.comp.gcc.patches/258777>, for details.
+pkgs/development/interpreters/guile/2.0.nix:    # XXX: See http://thread.gmane.org/gmane.comp.lib.gnulib.bugs/18903 for
+pkgs/development/interpreters/guile/1.8.nix:    # XXX: See http://thread.gmane.org/gmane.comp.lib.gnulib.bugs/18903 for
+pkgs/development/interpreters/guile/default.nix:    # XXX: See http://thread.gmane.org/gmane.comp.lib.gnulib.bugs/18903 for
+pkgs/development/python-modules/darcsver/default.nix:  # Darcsver will DTRT when Darcs isn't available.  See news.gmane.org
+pkgs/development/python-modules/darcsver/default.nix:  # http://thread.gmane.org/gmane.comp.file-systems.tahoe.devel/3200 for a
+pkgs/development/tools/misc/elfutils/default.nix:  # http://comments.gmane.org/gmane.comp.sysutils.elfutils.devel/2005
+pkgs/development/tools/misc/dejagnu/default.nix:  # <http://thread.gmane.org/gmane.linux.distributions.nixos/1036> for
+pkgs/development/tools/misc/autoconf/default.nix:  # http://thread.gmane.org/gmane.comp.sysutils.autoconf.bugs/6822 for
+pkgs/development/tools/misc/autoconf/2.64.nix:  # http://thread.gmane.org/gmane.comp.sysutils.autoconf.bugs/6822 for
+pkgs/applications/networking/browsers/mozilla-plugins/mplayerplug-in/default.nix:       # See, e.g., http://article.gmane.org/gmane.comp.mozilla.mplayerplug-in/2104 .
+pkgs/applications/graphics/graphicsmagick/disable-popen.patch:http://permalink.gmane.org/gmane.comp.security.oss.general/19669
+pkgs/applications/audio/lash/default.nix:  # http://permalink.gmane.org/gmane.linux.redhat.fedora.extras.cvs/822346
+pkgs/build-support/fetchgit/nix-prefetch-git:        # http://thread.gmane.org/gmane.linux.distributions.nixos/3569
+pkgs/os-specific/linux/kernel/manual-config.nix:        # Note: we can get rid of this once http://permalink.gmane.org/gmane.linux.kbuild.devel/13800 is merged.
+pkgs/os-specific/linux/ati-drivers/default.nix:# See http://thread.gmane.org/gmane.linux.distributions.nixos/4145 for a
+pkgs/tools/archivers/gnutar/default.nix:  # see http://article.gmane.org/gmane.os.macosx.fink.devel/21882
+pkgs/tools/misc/coreutils/default.nix:  # (http://thread.gmane.org/gmane.comp.gnu.core-utils.bugs/19025),
+pkgs/tools/misc/coreutils/default.nix:  # Darwin (http://thread.gmane.org/gmane.comp.gnu.core-utils.bugs/19351),
+pkgs/servers/monitoring/net-snmp/default.nix:      # http://comments.gmane.org/gmane.network.net-snmp.user/32434
